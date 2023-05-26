@@ -147,19 +147,24 @@ function TestimoniesDiv(){
 }
 
 function LanguagesDiv(){
+
+  const language_images = ["images/mongo.png","images/express.png","images/react.png","images/node.png","images/vite.png"]
   return (
     <div className='languagesDiv py-5'>
       <h2 className='div-header'>Favorite <span>Languages</span></h2>
       <div className='row mt-5'>
-        <img className='lang-logo col' alt='lang-logo' src="images/mongo.png"></img>
-        <img className='lang-logo col' alt='lang-logo' src="images/express.png"></img>
-        <img className='lang-logo col' alt='lang-logo' src="images/react.png"></img>
-        <img className='lang-logo col' alt='lang-logo' src="images/node.png"></img>
-        <img className='lang-logo col' alt='lang-logo' src="images/vite.png"></img>
+        {
+          language_images.map(
+            (image) => (
+              <img className='lang-logo col' alt='lang-logo' src={image}></img>)
+          )
+        }
       </div>
     </div>
   )
 }
+
+
 
 function App() {
   return (
