@@ -51,6 +51,18 @@ span{
   color: white;
 }
 
+.black-div{
+  position: relative;
+  width: 70%;
+  
+  left: auto;
+  top: 0px;
+  background: #000000;
+  border-radius: 50px;
+  text-align: center;
+  color: white;
+}
+
 .ceo-image{
  border: solid;
  border-width: 5px;
@@ -154,6 +166,28 @@ span{
     transform: rotate(360deg);
   }
 }
+
+#email-button{
+  padding: 0;
+  width: 231px;
+  height: 80px;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: bold;
+  background: #F4816D;
+  border: none;
+  border-radius: 0px 20px 20px 0px;
+}
+
+#email-input{
+  display: inline;
+width: 60%;
+height: 80px;
+background: #D9D9D9;
+border: none;
+border-radius: 20px 0px 0px 20px;
+}
+
 
 #top-name{
   display: inline;

@@ -164,6 +164,20 @@ function LanguagesDiv(){
   )
 }
 
+function FinalDiv(){
+  return (
+    <div>
+      <div className='black-div py-5'>
+        <p className='subtext'>Wanna make exciting projects together ?</p>
+        <div>
+          <input id='email-input' hint='Enter your e-mail'></input>
+          <button id='email-button'>Reach out</button>
+        </div>
+      </div>
+    </div>
+  )
+}
+
 
 
 function App() {
@@ -174,6 +188,7 @@ function App() {
       <ServiceDiv/>
       <TestimoniesDiv/>
       <LanguagesDiv/>
+      <FinalDiv/>
     </div>
   );
 }
