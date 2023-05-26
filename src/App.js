@@ -91,12 +91,68 @@ function ServiceDiv(){
   )
 }
 
+function TestimoniesDiv(){
+  return (
+    <>
+      <div className='testimoniesDiv py-5'>
+        <h2 className='div-header'><span>Testimonies</span></h2>
+        <p className='subtext'>Listen to what people are saying about my work</p>
+
+        <div className='row'>
+          <div className='col tcard p-5'>
+            <div className='row'>
+              <img src="images/boy3.png" alt='meow' className='col ceo-image' ></img>
+              <div className='col tcard-title'>
+                <p className='subtext' style={{'font-weight': 'bold'}}>Brian Nkwera</p>
+                <p className='subtext'>CEO</p>
+              </div>
+            </div>
+            <p className='subtext testimony-text' style={{'font-size': 19}}>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+            </p>
+
+          </div>
+          <div className='col tcard p-5'>
+            <div className='row'>
+              <img src="images/boy3.png" alt='meow' className='col ceo-image' ></img>
+              <div className='col tcard-title'>
+                <p className='subtext' style={{'font-weight': 'bold'}}>Brian Nkwera</p>
+                <p className='subtext'>CEO</p>
+              </div>
+            </div>
+            <p className='subtext testimony-text' style={{'font-size': 19}}>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+            </p>
+
+          </div>
+          <div className='col tcard p-5'>
+            <div className='row'>
+              <img src="images/boy3.png" alt='meow' className='col ceo-image' ></img>
+              <div className='col tcard-title'>
+                <p className='subtext' style={{'font-weight': 'bold'}}>Brian Nkwera</p>
+                <p className='subtext'>CEO</p>
+              </div>
+            </div>
+            <p className='subtext testimony-text' style={{'font-size': 19}}>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+            </p>
+
+          </div>
+
+        </div>
+      </div>
+    </>
+
+  )
+}
+
 function App() {
   return (
     <div className="App">
       <LandingDiv/>
       <AboutDiv/>
       <ServiceDiv/>
+      <TestimoniesDiv/>
     </div>
   );
 }

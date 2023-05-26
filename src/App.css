@@ -51,16 +51,26 @@ span{
   color: white;
 }
 
+.ceo-image{
+ border: solid;
+ border-width: 5px;
+ border-radius: 50%;
+ border-color: white;
+ width: 90px;
+ height: 80px;
+ 
+  
+}
+
 .div-header{
   font-weight: 900;
   font-size: 56;
 }
 
 .landingDiv{
-  background-image: url('./images/landing_background.png') ;
+  background-image: url('../public/images/landing_background.png') ;
   background-size: contain;
   background-color: #F4816D;
-  height: 600px;
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -90,7 +100,6 @@ span{
 }
 
 .serviceDiv{
-  height: 600px;
   text-align: center;
   padding-left: 10%;
   padding-right: 10%;
@@ -106,6 +115,27 @@ span{
   font-family: 'Montserrat';
 }
 
+.tcard{
+  background-color: #eeeeee;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 3rem;
+}
+
+.tcard-title{
+  padding-left: 2rem;
+}
+
+.testimoniesDiv{
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.testimony-text{
+  margin-top: 2rem;
+  text-align: start;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
