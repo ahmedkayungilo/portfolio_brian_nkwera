@@ -52,15 +52,14 @@ span{
 }
 
 .black-div{
-  position: relative;
+  position: absolute;
   width: 70%;
-  
-  left: auto;
-  top: 0px;
+  left: 15%;
   background: #000000;
   border-radius: 50px;
   text-align: center;
   color: white;
+  z-index: 1;
 }
 
 .ceo-image{
@@ -93,6 +92,10 @@ span{
   margin-top: 2rem;
   margin-left: 1%;
   margin-right: 1%;
+}
+
+.little-icon{
+  margin-right: 1rem;
 }
 
 .number{
@@ -180,12 +183,21 @@ span{
 }
 
 #email-input{
-  display: inline;
+display: inline;
 width: 60%;
 height: 80px;
 background: #D9D9D9;
 border: none;
 border-radius: 20px 0px 0px 20px;
+}
+
+#lastDiv{
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 10rem;
+  background-color: #F4816D;
+  text-align: center;
 }
 
 

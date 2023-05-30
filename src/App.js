@@ -1,5 +1,15 @@
 import './App.css';
 
+ const developer = {
+  "name": "Brian Nkwera",
+  "title_specialty": "A WEB DEVELOPER",
+  "phone_number": "+2557678764534",
+  "primary_location": "Kijitonyama, Dar es Salaam",
+  "email": "nkwerabrian@gmail.com",
+  "projects_completed": 20,
+  "satisfied_clients": 20,
+};
+
 function LandingDiv () {
   return (
     <>
@@ -166,13 +176,46 @@ function LanguagesDiv(){
 
 function FinalDiv(){
   return (
-    <div>
+    <div style={{"position": "relative"}}>
       <div className='black-div py-5'>
-        <p className='subtext'>Wanna make exciting projects together ?</p>
+        <h1 className='subtext mb-5 mt-0' id>Wanna make exciting projects together ?</h1>
         <div>
           <input id='email-input' hint='Enter your e-mail'></input>
           <button id='email-button'>Reach out</button>
         </div>
+      </div>
+      <div id='lastDiv' className='py-5'>
+        <div style={{"height": 70}}>
+
+        </div>
+         <h1>
+          {developer["name"]}
+         </h1>
+         <div className='row mb-5' style={{"margin-left":"20%", "margin-right":"20%"}}>
+            <div className='col-4'>
+              <i class="bi bi-telephone-fill little-icon"></i>
+              {developer.phone_number}
+            </div>
+            <div className='col-4'>
+              <i class="bi bi-envelope-fill little-icon"></i>
+              {developer.email}
+            </div>
+
+            <div className="col-4">
+
+<i class="bi bi-geo-alt little-icon"></i>
+{developer.primary_location}
+
+</div>
+         </div>
+
+        
+
+         <div style={{"background-color":"white",  "height":2}}>
+
+         </div>
+
+         <p style={{"font-size":16}}>All Rights are reserved @ 2023</p>
       </div>
     </div>
   )
