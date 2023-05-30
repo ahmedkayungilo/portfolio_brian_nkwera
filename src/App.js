@@ -104,7 +104,7 @@ function ServiceDiv(){
 function TestimoniesDiv(){
   return (
     <>
-      <div className='testimoniesDiv py-5'>
+      <div className='testimoniesDiv py-5 mt-5'>
         <h2 className='div-header'><span>Testimonies</span></h2>
         <p className='subtext'>Listen to what people are saying about my work</p>
 
@@ -221,6 +221,74 @@ function FinalDiv(){
   )
 }
 
+function ProjectsDiv(){
+  return (
+    <div className='projectsDiv'>
+      <div align='center' className='my-5'>
+      <h2 className='div-header'>My <span>Projects</span></h2>
+      <p style= {{ 'margin-top': 0 }}>Some of my favourite works</p>
+
+      </div>
+      
+
+      <div className='row '>
+        <div className='col-5 my-5'>
+          <h3>Bafredo Limited</h3>
+          <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+          </p>
+          <button className='pink-button'>
+            Visit
+          </button>
+        </div>
+        <div className='col-2' align="center"> 
+        <div className='small-circle'>
+          <b>1</b>
+        </div>
+        <div className='black-stick'>
+
+        </div>
+
+        </div>
+        
+        <div className='col-5 my-5'>
+          <img src='./images/project_image.png'></img>
+        </div>
+        
+      </div>
+      <div className='row'>
+        
+       
+        <div className='col-5 mt-5'>
+          <img src='./images/project_image.png'></img>
+        </div>
+
+        <div className='col-2' align='center'> 
+        <div className='small-circle'>
+          <b>1</b>
+        </div>
+        <div className='black-stick'>
+
+        </div>
+
+        </div>
+        
+
+        <div className='col-5 mt-5'>
+          <h3>Hekima Schools</h3>
+          <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+          </p>
+          <button className='pink-button'>
+            Visit
+          </button>
+        </div>
+        
+      </div>
+    </div>
+  )
+}
+
 
 
 function App() {
@@ -229,6 +297,7 @@ function App() {
       <LandingDiv/>
       <AboutDiv/>
       <ServiceDiv/>
+      <ProjectsDiv/>
       <TestimoniesDiv/>
       <LanguagesDiv/>
       <FinalDiv/>

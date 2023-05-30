@@ -7,6 +7,10 @@ a{
   padding-right: 4rem;
   margin-top: 6rem;
 }
+
+b{
+  font-size: 2rem;
+}
 h1,h2,h3{
   font-family: 'Montserrat';
   font-weight: 600;
@@ -60,6 +64,12 @@ span{
   text-align: center;
   color: white;
   z-index: 1;
+}
+
+.black-stick{
+  width: 5px;
+  height: 100%;
+  background-color: #000000;
 }
 
 .ceo-image{
@@ -116,6 +126,11 @@ span{
   font-family: 'Montserrat';
 }
 
+.projectsDiv{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 .scard{
   margin-left: 2%;
   margin-right: 2%;
@@ -131,6 +146,14 @@ span{
 
 .scard h2 {
   font-size: 25px;
+}
+
+.small-circle{
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  background-color: #F4816D;
+  border-radius: 50%;
 }
 
 
