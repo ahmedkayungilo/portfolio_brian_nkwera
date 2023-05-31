@@ -15,12 +15,12 @@ function LandingDiv () {
     <>
       <div className = 'landingDiv py-5'>
         <div className='row' id='top-bar'>
-          <h4 className='me-auto col-6 ' id='top-name'>Brian Nkwera</h4>
-          <button className ='ms-auto col-6 ' id='yellow-button'> Get in Touch</button>
+          <h4 className='me-auto col-md-6 ' id='top-name'>Brian Nkwera</h4>
+          <button className ='col-md-6 ' id='yellow-button'> Get in Touch</button>
         </div>
 
         <div className='row py-5'>
-          <div className ='col-6'>
+          <div className ='col-md-6 pb-5'>
             <h2>I AM</h2>
             <h1 style = {{ color: 'white' }} >BRIAN NKWERA</h1>
             <h3>A WEB DEVELOPER</h3>
@@ -32,8 +32,16 @@ function LandingDiv () {
             </div>
             
           </div>
-          <div className ='col-6'>
-              <img alt='john'></img>
+          <div className ='col-md-6 d-flex justify-content-center align-items-center p-5'>
+            <div className='outer'>
+            <div className='landing-img'>
+              <img id='main-img'  alt='developer_image' src='./images/project_image.png'></img>
+
+              </div>
+
+            </div>
+              
+              
             </div>
         </div>
       </div>
@@ -46,10 +54,44 @@ function AboutDiv() {
   return (
     <>
       <div className='aboutDiv row py-5'>
-        <div className='col-6'>
-          Images
+        <div className='col-md-6 mb-5'>
+
+          <div className='row'>
+            <div className='col-6'>
+              
+              <div className='about-img'>
+                <img alt='developer-about' className='about-image' src="./images/boy 2.png"></img>
+              </div>
+              <div className='about-img'>
+                <img alt='developer-about' className='about-image' src="./images/boy 2.png"></img>
+              </div>
+              <div className="pink-diamond" style={{"margin-left": "70%"}}>
+
+              </div>
+              
+
+            </div>
+
+            <div className='col-6'>
+
+            <div className="pink-diamond">
+
+            </div>
+              
+              <div className='about-img'>
+                <img alt='developer-about' className='about-image' src="./images/boy 2.png"></img>
+              </div>
+              <div className='about-img'>
+                <img alt='developer-about' className='about-image' src="./images/boy 2.png"></img>
+              </div>
+              
+              
+
+            </div>
+          </div>
+
         </div>
-        <div className='col-6'>
+        <div className='col-md-6'>
           <h2 className='div-header'>About <span>Me</span></h2>
           <p>I am Full Stack developer focused with the MERN stack </p>
           <p className='subtext'> A skilled web developer with a passion for creating outstanding digital experiences</p>
@@ -252,7 +294,7 @@ function ProjectsDiv(){
         </div>
         
         <div className='col-5 my-5'>
-          <img src='./images/project_image.png'></img>
+          <img src='./images/project_image.png' alt='project_image'></img>
         </div>
         
       </div>
@@ -260,7 +302,7 @@ function ProjectsDiv(){
         
        
         <div className='col-5 mt-5'>
-          <img src='./images/project_image.png'></img>
+          <img src='./images/project_image.png' alt='project_image'></img>
         </div>
 
         <div className='col-2' align='center'> 
@@ -297,9 +339,9 @@ function App() {
       <LandingDiv/>
       <AboutDiv/>
       <ServiceDiv/>
+      <LanguagesDiv/>
       <ProjectsDiv/>
       <TestimoniesDiv/>
-      <LanguagesDiv/>
       <FinalDiv/>
     </div>
   );
