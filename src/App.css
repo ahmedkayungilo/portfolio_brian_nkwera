@@ -27,7 +27,6 @@ span{
 }
 
 .aboutDiv{
-  height: 600px;
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -237,11 +236,12 @@ span{
 }
 
 #email-button{
-  padding: 0;
-  width: 231px;
-  height: 80px;
+  padding-top: 1%;
+  padding-bottom: 0.7%;
+  width: 30%;
+  height: 200%;
   font-family: 'Montserrat';
-  font-size: 20px;
+  font-size: 100%;
   font-weight: bold;
   background: #F4816D;
   border: none;
@@ -250,8 +250,9 @@ span{
 
 #email-input{
 display: inline;
-width: 60%;
-height: 80px;
+width: 50%;
+height: 100%;
+padding: 1%;
 background: #D9D9D9;
 border: none;
 border-radius: 20px 0px 0px 20px;

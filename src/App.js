@@ -234,21 +234,22 @@ function FinalDiv(){
           {developer["name"]}
          </h1>
          <div className='row mb-5' style={{"margin-left":"20%", "margin-right":"20%"}}>
-            <div className='col-4'>
+
+            <div className='col-md-4'>
               <i class="bi bi-telephone-fill little-icon"></i>
               {developer.phone_number}
             </div>
-            <div className='col-4'>
+
+            <div className='col-md-4'>
               <i class="bi bi-envelope-fill little-icon"></i>
               {developer.email}
             </div>
 
-            <div className="col-4">
-
-<i class="bi bi-geo-alt little-icon"></i>
-{developer.primary_location}
-
-</div>
+            <div className="col-md-4">
+              <i class="bi bi-geo-alt little-icon"></i>
+              {developer.primary_location}
+            </div>
+            
          </div>
 
         
